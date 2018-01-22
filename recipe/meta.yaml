@@ -10,8 +10,8 @@ package:
 source:
   fn: base64enc_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/base64enc_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/base64enc/base64enc_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/base64enc_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/base64enc/base64enc_{{ version }}.tar.gz
   sha256: 6d856d8a364bcdc499a0bf38bfd283b7c743d08f0b288174fba7dbf0a04b688d
 
 
